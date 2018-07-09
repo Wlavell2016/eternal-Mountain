@@ -69,7 +69,7 @@ var _site_bg_overlay_color =                      'rgba(0, 0, 0, 0.5)';
 // 13 = youtube video (video audio)
 // 14 = youtube video  + mp3
 //
-var _bg_style_desktop =                           4;
+var _bg_style_desktop =                           3;
 
 // ============================================ //
 // MOBILE/TABLE VARIANT                         //

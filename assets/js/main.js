@@ -67,7 +67,7 @@ var $ = jQuery.noConflict();
 //
 
   function fn_init() {
-    var id;    
+    var id;
 
     id = '#' + $('.section').filter('.is-active').attr('id');
     $('[data-link="' + id + '"]').addClass('is-active');
@@ -1589,7 +1589,8 @@ var $ = jQuery.noConflict();
       });
     }
 
-    var $carousel = $('#serviceCarousel, #portfolioCarousel');
+    var $carousel = $('#serviceCarousel, #portfolioCarousel, #serviceCarousel2');
+    console.log($carousel)
 
     $carousel.each(function() {
       var $this = $(this);

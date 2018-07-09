@@ -1,0 +1,17 @@
+.toolset{
+    display:flex;
+    flex-direction: row;
+    border: solid red 2px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.border {
+border: solid white 2px;
+}
+
+
+.owl-carousel .owl-item img {
+
+height: 30vh;
+}
